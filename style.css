@@ -1,0 +1,50 @@
+body {
+  font-family: "Poppins";
+  margin: 0;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main {
+  padding: 20px 48px;
+  margin: 0;
+  flex: 1;
+  background-color: aquamarine;
+}
+
+footer {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+
+  background-color: antiquewhite;
+  padding: 8px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.gh-icon {
+  translate: 0px 2px;
+}
+
+.gh-icon:hover {
+  translate: 0px -0px;
+  transition: translate 300ms;
+  color: green;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+  padding: 0;
+  margin: 0;
+}
