@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,27 +9,56 @@
   <link rel="stylesheet" href="style.css">
   <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 </head>
+
 <body>
+
+  <header>
+    <h2>Mooney Manager</h2>
+    <img src="images/honey-icon.png" alt="honey icon">
+  </header>
 
   <!-- MAIN TODO:-->
   <main>
     <section class="title">
-      <h1>Mooney</h1>
-      <h3>Your Personal Finance Manager</h3>
-      
+
+      <h1>Hello!</h1>
+      <h3>Welcome, to your personal money manager app</h3>
+
+
+        <img src="images/hive.png" alt="icon of bee hive">
+
     </section>
 
-    <section class="">
-
+    <section class="grid-container">
+      <div class="add-transaction">
+        <div class="add-transaction-text">Add new Income or Expense right now!</div>
+        <button>Create new record</button>
+      </div>
+      <div class="basic-item income">
+        <p>Income</p>
+        <div>Rp9.000.000</div>
+      </div>
+      <div class="basic-item expense">
+        <p>Expense</p>
+        <div>Rp9.000.000</div>
+      </div>
+      <div class="basic-item budget">
+        <p>Budget</p>
+        <div class="budget-text"></div>
+        <button>Edit Budget</button>
+      </div>
     </section>
   </main>
 
   <!-- FOOTER TODO:-->
   <footer class="footer">
-    Copyright © <script>document.write(new Date().getFullYear())</script> Azzam 
-    <a href="https://github.com/m-azzam-azis/" target="_blank"><img class="gh-icon" src="./icons/github-mark.svg" alt="github logo" height="20px" width="20px"></a>
+    Copyright ©
+    <script>document.write(new Date().getFullYear())</script> Azzam
+    <a href="https://github.com/m-azzam-azis/" target="_blank"><img class="gh-icon" src="./icons/github-mark.svg"
+        alt="github logo" height="20px" width="20px"></a>
   </footer>
 
   <script src="app.js"></script>
 </body>
+
 </html>
