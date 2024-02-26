@@ -1,0 +1,13 @@
+@media only screen and (max-width: 480px) {
+    main {
+        font-family: 'Jakarta';
+    }
+    section > h1 {
+        font-weight: 700;
+        font-size: 30px;
+    }
+    section > h3 {
+        font-weight: 400;
+        font-size: 14px;
+    }
+}

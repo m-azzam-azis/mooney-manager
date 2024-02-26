@@ -7,6 +7,7 @@
   <title>Mooney Manager</title>
   <link rel="icon" type="image/honey-icon" href="./images/honey-icon.png">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style1.css">
   <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 </head>
 
@@ -21,31 +22,31 @@
   <main>
     <section class="title">
 
-      <h1>Hello!</h1>
-      <h3>Welcome, to your personal money manager app</h3>
-
-
-        <img src="images/hive.png" alt="icon of bee hive">
+      <h1>Hello, 👋</h1>
+      <h3>Welcome, to your personal money manager app!</h3>
+      <img src="images/hive.png" alt="icon of bee hive">
 
     </section>
 
-    <section class="grid-container">
+    <section class="container">
       <div class="add-transaction">
         <div class="add-transaction-text">Add new Income or Expense right now!</div>
         <button>Create new record</button>
       </div>
-      <div class="basic-item income">
+      <div class="basic-item">
         <p>Income</p>
-        <div>Rp9.000.000</div>
+        <div id="income">Rp9.000.000</div>
       </div>
-      <div class="basic-item expense">
+      <div class="basic-item">
         <p>Expense</p>
-        <div>Rp9.000.000</div>
+        <div id="expense">Rp9.000.000</div>
       </div>
-      <div class="basic-item budget">
-        <p>Budget</p>
-        <div class="budget-text"></div>
-        <button>Edit Budget</button>
+      <div class="basic-item ">
+        <div class="left-budget">
+          <p>Budget</p>
+          <div class="budget-text">Rp9.000.000</div>
+        </div>
+        <a id="budget" href="/">Edit Budget &rarr;</a>
       </div>
     </section>
   </main>
